@@ -1,7 +1,25 @@
-venv/
-chroma_db/
-.env
+# Python
 __pycache__/
 *.pyc
-node_modules/
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Vector databases / embeddings
+vector_store/
+chroma_db/
+
+# OS files
 .DS_Store
+
+# Node (if UI later added)
+node_modules/
+
+# Python version manager
+.python-version
