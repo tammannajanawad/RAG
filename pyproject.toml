@@ -1,0 +1,13 @@
+[project]
+name = "pdf-chat-with-rag-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.2",
+    "pypdf>=6.7.4",
+    "requests>=2.32.5",
+    "sentence-transformers>=5.2.3",
+    "torch>=2.10.0",
+]
